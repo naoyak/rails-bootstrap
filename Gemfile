@@ -18,8 +18,15 @@ gem 'figaro'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0.rc'
+
+group :production do
+	gem 'pg'
+	gem 'thin'
+	gem 'rails_on_heroku'
+end
+
 group :development do
-  
+	gem 'sqlite3'
   gem 'better_errors'
   gem 'quiet_assets'
 end

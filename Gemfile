@@ -19,6 +19,7 @@ gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0.rc'
 group :development do
+  
   gem 'better_errors'
   gem 'quiet_assets'
 end
